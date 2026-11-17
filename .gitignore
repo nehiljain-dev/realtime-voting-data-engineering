@@ -1,0 +1,19 @@
+﻿# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# local services / data
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+iceberg/checkpoints/
+iceberg/iceberg_warehouse/
+*.log
+*.log.err
+
+# ide
+.idea/
+.vscode/
